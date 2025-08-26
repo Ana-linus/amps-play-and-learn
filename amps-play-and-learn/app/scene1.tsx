@@ -10,7 +10,7 @@ export default function Scene1() {
 			            <View style={styles.bg} />
 
 				          {/* Logo + Tagline */}
-					        <Image source={require("../assets/AMPS_school_logo.png")} style={styles.logo} />
+					        <Image source={require("AMPS_school_logo.png")} style={styles.logo} />
 						      <Text style={styles.tagline}>“Discipline and Knowledge.”</Text>
 
 						            {/* Mascot */}
