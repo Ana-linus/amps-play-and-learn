@@ -10,18 +10,27 @@ export default function Scene1() {
 			            <View style={styles.bg} />
 
 				          {/* Logo + Tagline */}
-					        <Image source={require("AMPS_school_logo.png")} style={styles.logo} />
-						      <Text style={styles.tagline}>“Discipline and Knowledge.”</Text>
+					        <Image
+						        source={require("../assets/images/AMPS_school_logo.png")}
+							        style={styles.logo}
+								      />
+								            <Text style={styles.tagline}>“Discipline and Knowledge.”</Text>
 
-						            {/* Mascot */}
-							          <Image source={require("../assets/anagha-parrot.png")} style={styles.mascot} />
+									          {/* Mascot */}
+										        <Image
+											        source={require("../assets/anagha-parrot.png")}
+												        style={styles.mascot}
+													      />
 
-								        {/* Start Button */}
-									      <TouchableOpacity style={styles.button} onPress={() => router.push("/scene2")}>
-									              <Text style={styles.buttonText}>Start</Text>
-										            </TouchableOpacity>
-											        </View>
-												  );
+													            {/* Start Button */}
+														          <TouchableOpacity
+															          style={styles.button}
+																          onPress={() => router.push("/scene2")}
+																	        >
+																		        <Text style={styles.buttonText}>Start</Text>
+																			      </TouchableOpacity>
+																			          </View>
+																				    );
 }
 
 const styles = StyleSheet.create({
